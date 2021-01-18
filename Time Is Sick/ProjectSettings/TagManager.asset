@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Compteur
+  - HUD
+  - GameManager
+  - InventoryCanvas
+  - TEST
+  - Core
+  - Door
+  - Genmanager
+  - Map
+  - BarrelMAIN
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemies
+  - Blocks LOS
+  - Interactible
+  - Player
+  - MouseDetect
+  - "D\xE9cor"
+  - Traps
+  - Items
+  - Rooms&Corridors
+  - Detectors
+  - Enchant
+  - Tuto
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

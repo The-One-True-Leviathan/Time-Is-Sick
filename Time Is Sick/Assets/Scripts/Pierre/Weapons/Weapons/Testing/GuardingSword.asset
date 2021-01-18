@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9479960e238713e4fa31fa6725a9cc5e, type: 3}
+  m_Name: GuardingSword
+  m_EditorClassIdentifier: 
+  atk:
+  - {fileID: 11400000, guid: f026ff4d95dcd9e42a68a61453f0fd8b, type: 2}
+  - {fileID: 11400000, guid: 0b30a7b3b829c6a46a0950ecdccaa457, type: 2}
+  enchantments:
+  - {fileID: 11400000, guid: b2ff7a7a1f936d244a15772dd29c9775, type: 2}
+  weaponSprite: {fileID: 0}
+  weaponItemSprite: {fileID: 0}
+  weaponIcon: {fileID: 0}
+  weaponIconSecondary: {fileID: 0}
+  weaponUnique: 0
+  weaponBaseName: Sword
+  weaponRealName: Sword of Guarding Attack
+  weaponDescription: 
+  weaponColor:
+    serializedVersion: 2
+    rgba: 4278255360
+  weaponID: 0
+  totalDamageMultiplier: 1
+  totalKnockbackMultiplier: 1
+  totalBuildupMultiplier: 1
+  totalReachMultiplier: {x: 1, y: 1, z: 1}

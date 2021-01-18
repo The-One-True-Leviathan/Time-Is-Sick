@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19f0f6858fbe364794938aeb21afba3, type: 3}
+  m_Name: Max5 Shop
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -2056447876109434628, guid: d59e7d225ed59ae4aabbd27804829039,
+    type: 3}
+  itemName: Small reinforcement potion
+  itemDescription: Slightly increases your max HPs (+5)
+  isFromShop: 1
+  itemCollider: {fileID: 0}
+  itemPrice: 30
+  itemType: 1
+  strength: 5

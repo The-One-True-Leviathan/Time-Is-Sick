@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19f0f6858fbe364794938aeb21afba3, type: 3}
+  m_Name: Boulon shop
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -1718665988832583023, guid: aed0f7e0c962c5146a5282c730a8f3e7,
+    type: 3}
+  itemName: 'Bolt '
+  itemDescription: A bolt that you can trade in the HUB
+  isFromShop: 1
+  itemCollider: {fileID: 0}
+  itemPrice: 20
+  itemType: 2
+  strength: 0
