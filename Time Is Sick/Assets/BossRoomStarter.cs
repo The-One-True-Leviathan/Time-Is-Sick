@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class BossRoomStarter : MonoBehaviour
 {
-
-    GameObject player;
+    bool started;
 
     // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        player.transform.position = new Vector3(transform.position.x, transform.position.y, player.transform.position.z);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (!started)
+        {
+            if (GameObject.FindGameObjectWithTag("Player"))
+            {
+                GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(transform.position.x, transform.position.y + 0.4f, transform.position.z);
+                started = true;
+            }
+        }
     }
 }

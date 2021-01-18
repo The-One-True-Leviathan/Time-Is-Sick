@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
     public AudioSource playerSource, weaponSource, stepsSource;
     public AudioClip heal, dégâtsReçus, criDeMort, pasDuJoueur, chargementAttaque, roulade;
     public AudioClip[] attaques = new AudioClip[4];
+    bool steppy;
 
     // Start is called before the first frame update
     void Start()
@@ -414,11 +415,10 @@ public class Player : MonoBehaviour
                 xVelocity *= 0.5f;
                 zVelocity *= 0.5f;
             }
-            if (currentSpeed != Vector3.zero)
+            if (currentSpeed.magnitude > 0.5f && !steppy && !isInRoll)
             {
                 //RPP
-                stepsSource.clip = pasDuJoueur;
-                stepsSource.Play();
+                StartCoroutine(Steps());
             }
         }
 
@@ -448,6 +448,15 @@ public class Player : MonoBehaviour
         {
             rigidBody.velocity *= speedMultiplier;
         }
+    }
+
+    IEnumerator Steps()
+    {
+        steppy = true;
+        stepsSource.clip = pasDuJoueur;
+        stepsSource.Play();
+        yield return new WaitForSeconds(0.325f);
+        steppy = false;
     }
 
     public void Attack(WeaponScriptableObject weapon, int atkNumber)

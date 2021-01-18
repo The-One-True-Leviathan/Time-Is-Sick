@@ -49,9 +49,10 @@ public class EnemyDamage : MonoBehaviour
 
     public IEnumerator DamageFeedback()
     {
-        objectSprite.material = dmgShader;
-        yield return new WaitForSeconds(0.1f);
-        objectSprite.material = trueMaterial;
+        Color col = objectSprite.color;
+        objectSprite.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        objectSprite.color = col;
     }
 
     public void Damage(float damage, float knockback, Transform knockbackOrigin)
@@ -70,6 +71,10 @@ public class EnemyDamage : MonoBehaviour
             {
                 currentHP = maxHP;
             }
+            if (!isTrap)
+            {
+                StartCoroutine(DamageFeedback());
+            }
             if (currentHP <= 0 && !isTrap && !isEnvironment)
             {
                 player.latestEnemyKilled = this.gameObject;
@@ -84,7 +89,7 @@ public class EnemyDamage : MonoBehaviour
                 Time.timeScale = 1;
             }
             //StopAllCoroutines();
-            StartCoroutine("Knockback");
+            //StartCoroutine("Knockback");
         }
         else
         {
@@ -95,10 +100,6 @@ public class EnemyDamage : MonoBehaviour
             else
             {
                 Damage(damage, knockback, knockbackOrigin, true);
-                if (!isTrap)
-                {
-                    StartCoroutine(DamageFeedback());
-                }
             }
         }
     }
