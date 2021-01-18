@@ -602,6 +602,10 @@ public class Player : MonoBehaviour
                         Debug.DrawRay(transform.position, enemyDirection, Color.red);
                         //Debug.LogError("Enemy hit ! Inflicted " + damage + " damage !");
                         float finalKnockback = weapon.atk[atkNumber].knockBack[chargeLevel] * weapon.totalKnockbackMultiplier;
+                        if (!enemy.GetComponent<EnemyDamage>().isBoss)
+                        {
+                            enemy.GetComponent<EnemyDamage>().FX(weapon.atk[atkNumber].fxType[chargeLevel]);
+                        }
                         DoAttack(damage, finalKnockback, enemy.gameObject);
                         screenshake.Shake(0.05f, 0.01f*damage, 0.01f);
                         enemiesHitLastAttack.Add(enemy.gameObject);

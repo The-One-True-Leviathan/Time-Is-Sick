@@ -15,6 +15,7 @@ public class EnemyDamage : MonoBehaviour
     public Rewind rewind;
     public Material dmgShader, trueMaterial;
     public SpriteRenderer objectSprite;
+    public Animator fxAnimator;
 
     //Gestion du loot
     public bool hasLoot;
@@ -45,6 +46,30 @@ public class EnemyDamage : MonoBehaviour
         isInKnockback = true;
         yield return new WaitForSeconds(0.3f);
         isInKnockback = false;
+    }
+
+    public void FX()
+    {
+        FX("Impact");
+    }
+
+    public void FX(string type)
+    {
+        switch (type)
+        {
+            case "Slash":
+                fxAnimator.SetInteger("fx", 2);
+                break;
+            case "Impact":
+                fxAnimator.SetInteger("fx", 1);
+                break;
+        }
+        StartCoroutine(FXCoroutine());
+    }
+    IEnumerator FXCoroutine()
+    {
+        yield return new WaitForEndOfFrame();
+        fxAnimator.SetInteger("fx", 0);
     }
 
     public IEnumerator DamageFeedback()

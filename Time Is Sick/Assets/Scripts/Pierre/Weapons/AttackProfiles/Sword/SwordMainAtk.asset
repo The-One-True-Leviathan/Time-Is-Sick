@@ -46,6 +46,10 @@ MonoBehaviour:
   - 3
   - 5
   animationIndex: ffffffff010000000100000002000000
+  fxType:
+  - Impact
+  - Impact
+  - Impact
   recoil:
   - {x: -5, y: 0.02}
   - {x: -5, y: 0.02}

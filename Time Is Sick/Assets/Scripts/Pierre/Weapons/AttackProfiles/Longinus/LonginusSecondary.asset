@@ -33,5 +33,7 @@ MonoBehaviour:
   knockBack:
   - 8
   animationIndex: 05000000
+  fxType:
+  - Slash
   recoil:
   - {x: 15, y: 0.15}

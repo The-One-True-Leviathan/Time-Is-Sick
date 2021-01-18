@@ -25,6 +25,8 @@ namespace Weapons
         public float[] damage = new float[1]; //The number of HP reduced from the enemy health
         public float[] knockBack = new float[1]; //How forcefully is the enemy thrown back
         public int[] animationIndex = new int[1];
+
+        public string[] fxType = new string[1];
         public Vector2[] recoil = new Vector2[1]; //How forcefully the player is knocked back (or forward) by the attack
     }
 }
