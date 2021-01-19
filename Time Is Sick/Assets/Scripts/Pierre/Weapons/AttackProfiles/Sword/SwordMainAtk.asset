@@ -40,7 +40,7 @@ MonoBehaviour:
   damage:
   - 4
   - 4
-  - 9
+  - 7
   knockBack:
   - 3
   - 3
