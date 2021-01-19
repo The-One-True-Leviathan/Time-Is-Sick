@@ -55,16 +55,20 @@ public class EnemyDamage : MonoBehaviour
 
     public void FX(string type)
     {
-        switch (type)
+        if (!isTrap)
         {
-            case "Slash":
-                fxAnimator.SetInteger("fx", 2);
-                break;
-            case "Impact":
-                fxAnimator.SetInteger("fx", 1);
-                break;
+
+            switch (type)
+            {
+                case "Slash":
+                    fxAnimator.SetInteger("fx", 2);
+                    break;
+                case "Impact":
+                    fxAnimator.SetInteger("fx", 1);
+                    break;
+            }
+            StartCoroutine(FXCoroutine());
         }
-        StartCoroutine(FXCoroutine());
     }
     IEnumerator FXCoroutine()
     {
