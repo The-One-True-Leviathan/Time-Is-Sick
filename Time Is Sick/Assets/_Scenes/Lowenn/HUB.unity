@@ -16622,6 +16622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1742331793728187935, guid: aa80221d2e5dd2f47a217e8a478dc6a1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 2131136163545840784, guid: aa80221d2e5dd2f47a217e8a478dc6a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16681,6 +16686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game Components
+      objectReference: {fileID: 0}
+    - target: {fileID: 2131136164081227831, guid: aa80221d2e5dd2f47a217e8a478dc6a1,
+        type: 3}
+      propertyPath: quality
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2883352423126620361, guid: aa80221d2e5dd2f47a217e8a478dc6a1,
         type: 3}

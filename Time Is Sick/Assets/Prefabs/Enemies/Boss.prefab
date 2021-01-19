@@ -200,6 +200,7 @@ MonoBehaviour:
   dmgShader: {fileID: 2100000, guid: d50644b1ca6e01244af2194ce013256d, type: 2}
   trueMaterial: {fileID: 2100000, guid: 8f5d2e4216b04f34db5cd2a6b114dd64, type: 2}
   objectSprite: {fileID: 6151731490107373599}
+  fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots:
   - {fileID: 5640554156492951416, guid: ea589fd277a5ce34194b2ccc6332d759, type: 3}
@@ -253,13 +254,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6151731490107373593}
-  m_LocalRotation: {x: 0.2588191, y: -0, z: -0, w: 0.9659258}
+  m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
   m_LocalPosition: {x: 0, y: 0.234, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8504264951087781543}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
 --- !u!212 &6151731490107373599
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -156,7 +156,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a44f35baf6112f34b894da39539a6f87, type: 2}
   - {fileID: 11400000, guid: 38a21087f0eff504db1a1fe1370601e1, type: 2}
   availableSpecialEnchants:
-  - {fileID: 11400000, guid: b2ff7a7a1f936d244a15772dd29c9775, type: 2}
+  - {fileID: 11400000, guid: 9e5b4d28624d31f4cbbd084610174549, type: 2}
   cursedEnchants:
   - {fileID: 11400000, guid: aee3da24235e1e749b1b7e0e84e1e564, type: 2}
   - {fileID: 11400000, guid: 4d53a9ec1771cb44abf30f17ef7321de, type: 2}

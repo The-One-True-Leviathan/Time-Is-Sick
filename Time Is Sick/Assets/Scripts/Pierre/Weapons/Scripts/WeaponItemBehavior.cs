@@ -22,8 +22,7 @@ public class WeaponItemBehavior : MonoBehaviour
         {
             weapon = Object.Instantiate(weapon) as WeaponScriptableObject;
         }
-
-        sprite = GetComponent<SpriteRenderer>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         //interactible = GetComponentInChildren<InteractibleBehavior>();

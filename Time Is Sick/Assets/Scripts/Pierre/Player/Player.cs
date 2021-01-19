@@ -607,6 +607,7 @@ public class Player : MonoBehaviour
                             enemy.GetComponent<EnemyDamage>().FX(weapon.atk[atkNumber].fxType[chargeLevel]);
                         }
                         DoAttack(damage, finalKnockback, enemy.gameObject);
+                        AttackEnchant(weapon);
                         screenshake.Shake(0.05f, 0.01f*damage, 0.01f);
                         enemiesHitLastAttack.Add(enemy.gameObject);
                     }
@@ -633,7 +634,6 @@ public class Player : MonoBehaviour
 
 
             }
-            AttackEnchant(weapon);
             //Debug.LogError("Number of Enemies hit : " + enemiesHitLastAttack.Count);
         }
 
