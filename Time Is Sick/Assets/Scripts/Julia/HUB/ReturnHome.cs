@@ -9,6 +9,8 @@ public class ReturnHome : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject map = GameObject.FindGameObjectWithTag("Map");
+        map.GetComponent<RectTransform>().localScale = Vector3.zero;
         interactible = GetComponentInChildren<InteractibleBehavior>();
     }
 
