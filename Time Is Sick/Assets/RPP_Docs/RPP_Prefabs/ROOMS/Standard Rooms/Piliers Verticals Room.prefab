@@ -672,6 +672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doors: []
   hasClosed: 0
+  bossOverride: 0
   monsters: {fileID: 4014778860297170306}
 --- !u!1 &1864071301781269209
 GameObject:
@@ -2502,7 +2503,7 @@ PrefabInstance:
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.44
+      value: 8.631
       objectReference: {fileID: 0}
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
@@ -2569,6 +2570,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4042627166563211790}
     m_Modifications:
+    - target: {fileID: 8205531229935949223, guid: cc41fea5e0987db42b0a79350b0f0a55,
+        type: 3}
+      propertyPath: goRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205531229935949223, guid: cc41fea5e0987db42b0a79350b0f0a55,
+        type: 3}
+      propertyPath: goDown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9015800717123116082, guid: cc41fea5e0987db42b0a79350b0f0a55,
         type: 3}
       propertyPath: m_Name
@@ -2644,6 +2655,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4042627166563211790}
     m_Modifications:
+    - target: {fileID: 8205531229935949223, guid: cc41fea5e0987db42b0a79350b0f0a55,
+        type: 3}
+      propertyPath: goRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205531229935949223, guid: cc41fea5e0987db42b0a79350b0f0a55,
+        type: 3}
+      propertyPath: goDown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9015800717123116082, guid: cc41fea5e0987db42b0a79350b0f0a55,
         type: 3}
       propertyPath: m_Name

@@ -1183,6 +1183,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40662ef623d97914c8b4f8de46a8005a, type: 3}
+--- !u!212 &1020753157 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1600716395891654050, guid: 697aae280c09dd741b1cdffad6e2e239,
+    type: 3}
+  m_PrefabInstance: {fileID: 1715127795}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1051264849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,7 +1494,7 @@ PrefabInstance:
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.66
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
@@ -1498,7 +1504,7 @@ PrefabInstance:
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.17364816
       objectReference: {fileID: 0}
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
@@ -1513,7 +1519,7 @@ PrefabInstance:
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9848078
       objectReference: {fileID: 0}
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
@@ -1523,7 +1529,7 @@ PrefabInstance:
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 248781394675919552, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
@@ -1534,6 +1540,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358101591380151148, guid: 697aae280c09dd741b1cdffad6e2e239,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358101591380151148, guid: 697aae280c09dd741b1cdffad6e2e239,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2911085998253617834, guid: 697aae280c09dd741b1cdffad6e2e239,
         type: 3}
@@ -1560,6 +1576,11 @@ PrefabInstance:
       propertyPath: reverseExplosion
       value: 
       objectReference: {fileID: 8300000, guid: 1ebf1366e160f9a46890a7093063476f, type: 3}
+    - target: {fileID: 6490847699696969245, guid: 697aae280c09dd741b1cdffad6e2e239,
+        type: 3}
+      propertyPath: emptyBarrel
+      value: 
+      objectReference: {fileID: 1020753157}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 697aae280c09dd741b1cdffad6e2e239, type: 3}
 --- !u!1 &1947579482

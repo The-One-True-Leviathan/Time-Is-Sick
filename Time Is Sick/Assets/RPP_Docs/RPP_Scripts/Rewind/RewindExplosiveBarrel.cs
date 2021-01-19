@@ -9,11 +9,24 @@ public class RewindExplosiveBarrel : MonoBehaviour
     [SerializeField] ReverseParticles reverseParticles;
     [SerializeField] AudioClip reverseExplosion;
     [SerializeField] AudioSource audioSource;
+    [SerializeField] SpriteRenderer emptyBarrel;
 
 
     private void Start()
     {
         reverseParticles.enabled = false;
+    }
+
+    private void Update()
+    {
+        if(barrelObj.activeSelf == true)
+        {
+            emptyBarrel.enabled = false;
+        }
+        else
+        {
+            emptyBarrel.enabled = true;
+        }
     }
 
     public void BarrelRewind()
