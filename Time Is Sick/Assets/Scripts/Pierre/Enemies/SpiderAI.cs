@@ -73,6 +73,10 @@ public class SpiderAI : MonoBehaviour
     Vector3 lastPosition,
         currentSpeed;
 
+    //Sons
+    public AudioClip spiderAttack;
+    public AudioSource spiderSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -308,10 +312,10 @@ public class SpiderAI : MonoBehaviour
 
     void DoDamage()
     {
-        /* Raph
-         Son d'attaque spooder
+        //RPP
+        spiderSource.clip = spiderAttack;
+        spiderSource.Play();
 
-         */
         Collider[] hitPlayer = Physics.OverlapSphere(transform.position, attackRange, playerMask);
         foreach (Collider player in hitPlayer)
         {

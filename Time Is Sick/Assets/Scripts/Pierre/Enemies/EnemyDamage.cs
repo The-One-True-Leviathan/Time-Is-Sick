@@ -21,7 +21,10 @@ public class EnemyDamage : MonoBehaviour
     public bool hasLoot;
     public List<GameObject> possibleLoots;
 
-    // Start is called before the first frame update
+    //Sound Design
+    public AudioClip monsterDamage, monsterDeath;
+    public AudioSource monsterSource;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -103,9 +106,20 @@ public class EnemyDamage : MonoBehaviour
             if (!isTrap)
             {
                 StartCoroutine(DamageFeedback());
+
+                //RPP
+                monsterSource.clip = monsterDamage;
+                monsterSource.Play();
+
             }
             if (currentHP <= 0 && !isTrap && !isEnvironment)
             {
+                if (!isTrap)
+                {
+                    //RPP
+                    monsterSource.clip = monsterDeath;
+                    monsterSource.Play();
+                }
                 player.latestEnemyKilled = this.gameObject;
                 player.KillEnchant();
                 rewind.EnnemyIsKilled(); //Augmente le RewindCounter

@@ -64,6 +64,10 @@ public class GolemAI : MonoBehaviour
     Vector3 lastPosition,
         currentSpeed;
 
+    //Sons
+    public AudioClip golemAttack;
+    public AudioSource golemSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -223,6 +227,10 @@ public class GolemAI : MonoBehaviour
 
     void DoDamage()
     {
+        //RPP
+        golemSource.clip = golemAttack;
+        golemSource.Play();
+
         Collider[] hitPlayer = Physics.OverlapSphere(transform.position, attackRange, playerMask);
         foreach (Collider player in hitPlayer)
         {

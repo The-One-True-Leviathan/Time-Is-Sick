@@ -73,6 +73,10 @@ public class BossAI : MonoBehaviour
     Vector3 lastPosition,
         currentSpeed;
 
+    //Sound Design
+    public AudioSource bossSource;
+    public AudioClip bossAttack, bossSpawn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -248,10 +252,10 @@ public class BossAI : MonoBehaviour
 
     void DoDamage()
     {
-        /* Raph
-         Son d'attaque boss
+        //RPP
+        bossSource.clip = bossAttack;
+        bossSource.Play();
 
-         */
         Collider[] hitPlayer = Physics.OverlapSphere(transform.position, attackRange, playerMask);
         foreach (Collider player in hitPlayer)
         {
@@ -375,9 +379,10 @@ public class BossAI : MonoBehaviour
 
     IEnumerator SpawnCoroutine()
     {
-        /* Raph
-         * Son Spawn Boss
-         */
+        //RPP
+        bossSource.clip = bossSpawn;
+        bossSource.Play();
+
         isInSpawn = true;
         yield return new WaitForSeconds(spawnBuildup);
         Instantiate(spiderOriginal, transform.position, Quaternion.identity);

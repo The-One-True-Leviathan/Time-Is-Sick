@@ -391,6 +391,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4834865074149577045, guid: cb2ec2c944b2289428501e2166c1f3f3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834865074149577045, guid: cb2ec2c944b2289428501e2166c1f3f3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834865074715737472, guid: cb2ec2c944b2289428501e2166c1f3f3,
+        type: 3}
+      propertyPath: slow
+      value: 
+      objectReference: {fileID: 1742331792227527976}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb2ec2c944b2289428501e2166c1f3f3, type: 3}
 --- !u!224 &2883352423126620361 stripped
@@ -703,6 +718,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 413575270529543084, guid: 7bba893ad029ae046ba15477a112c016,
+        type: 3}
+      propertyPath: maxSlowDownTimeCooldown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 617299923740258116, guid: 7bba893ad029ae046ba15477a112c016,
         type: 3}
       propertyPath: m_Volume
@@ -767,6 +787,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2131136164069623428}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1742331792227527976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 413575270529543084, guid: 7bba893ad029ae046ba15477a112c016,
+    type: 3}
+  m_PrefabInstance: {fileID: 2131136164069623428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fcc7ebec3e4294a88187b11e49254a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &4813591344651088329 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6871964027837839181, guid: 7bba893ad029ae046ba15477a112c016,
@@ -1023,7 +1055,7 @@ PrefabInstance:
     - target: {fileID: 972811723841595939, guid: 36300384e1f971b4aa3bfae28c83802f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000061035156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1496012439936289150, guid: 36300384e1f971b4aa3bfae28c83802f,
         type: 3}
