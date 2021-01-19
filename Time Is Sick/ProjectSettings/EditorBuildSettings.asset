@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Lowenn/HUB.unity
     guid: 7721b41f185a3d147877e7aea3540044
+  - enabled: 1
+    path: Assets/_Scenes/Julia/Tuto.unity
+    guid: 65c122c60f016df4abdaf9b450aae214
   - enabled: 0
     path: Assets/_Scenes/Release 1.unity
     guid: 96238dcc002e9324f8182dc2742ef99d
