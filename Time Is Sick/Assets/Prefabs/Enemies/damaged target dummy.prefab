@@ -171,7 +171,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_TargetDisplay: 0
 --- !u!114 &3136002172291657790
 MonoBehaviour:
@@ -344,6 +344,9 @@ MonoBehaviour:
   fxAnimator: {fileID: 3403984250856614726}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!114 &3136002172611753820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,7 +446,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: 692edc96fe2419840aab02b7a40d40a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
