@@ -16992,6 +16992,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7469346020308101342, guid: aa80221d2e5dd2f47a217e8a478dc6a1,
+        type: 3}
+      propertyPath: nameScene.Array.data[0]
+      value: D1
+      objectReference: {fileID: 0}
     - target: {fileID: 8348090442457366262, guid: aa80221d2e5dd2f47a217e8a478dc6a1,
         type: 3}
       propertyPath: m_LocalPosition.z
