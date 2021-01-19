@@ -672,6 +672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doors: []
   hasClosed: 0
+  bossOverride: 0
   monsters: {fileID: 8920382390882969479}
 --- !u!1 &6170580641676920140
 GameObject:
@@ -2113,6 +2114,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2b300b5c51d7b5c4bb3730fd1ff2a710, type: 2}
+    - target: {fileID: 6419873892131031300, guid: 6364513d42316b74fadbf43c673aa681,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8583338635485369290, guid: 6364513d42316b74fadbf43c673aa681,
         type: 3}
       propertyPath: m_Name

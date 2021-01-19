@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 477620549}
   - component: {fileID: 477620552}
   - component: {fileID: 477620551}
-  - component: {fileID: 477620550}
   m_Layer: 16
   m_Name: roady (2)
   m_TagString: Untagged
@@ -80,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &477620550
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477620548}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &654395271
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +90,6 @@ GameObject:
   - component: {fileID: 654395272}
   - component: {fileID: 654395275}
   - component: {fileID: 654395274}
-  - component: {fileID: 654395273}
   m_Layer: 16
   m_Name: roadx (3)
   m_TagString: Untagged
@@ -174,20 +158,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &654395273
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 654395271}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &920114022
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +169,6 @@ GameObject:
   - component: {fileID: 920114023}
   - component: {fileID: 920114026}
   - component: {fileID: 920114025}
-  - component: {fileID: 920114024}
   m_Layer: 16
   m_Name: Eau
   m_TagString: Untagged
@@ -268,20 +237,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &920114024
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920114022}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1004095680
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +248,6 @@ GameObject:
   - component: {fileID: 1004095681}
   - component: {fileID: 1004095684}
   - component: {fileID: 1004095683}
-  - component: {fileID: 1004095682}
   m_Layer: 16
   m_Name: roady (3)
   m_TagString: Untagged
@@ -362,20 +316,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1004095682
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004095680}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1020048769
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +419,6 @@ GameObject:
   - component: {fileID: 1391497202}
   - component: {fileID: 1391497205}
   - component: {fileID: 1391497204}
-  - component: {fileID: 1391497203}
   m_Layer: 16
   m_Name: roadx (2)
   m_TagString: Untagged
@@ -548,20 +487,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1391497203
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391497201}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1829200247
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,7 +498,6 @@ GameObject:
   - component: {fileID: 1829200248}
   - component: {fileID: 1829200251}
   - component: {fileID: 1829200250}
-  - component: {fileID: 1829200249}
   m_Layer: 16
   m_Name: bordure
   m_TagString: Untagged
@@ -642,20 +566,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1829200249
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829200247}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1942641911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,7 +1185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1560001779043105075
 Transform:
   m_ObjectHideFlags: 0
@@ -2491,7 +2401,6 @@ GameObject:
   - component: {fileID: 5131043770128160430}
   - component: {fileID: 6987413912796791397}
   - component: {fileID: 2644738881091600609}
-  - component: {fileID: 6468558143562263851}
   m_Layer: 16
   m_Name: roady (1)
   m_TagString: Untagged
@@ -2560,20 +2469,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6468558143562263851
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6198500170027340799}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &6418429360599953589
 GameObject:
   m_ObjectHideFlags: 0
@@ -3224,6 +3119,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1902668579234910955, guid: 6364513d42316b74fadbf43c673aa681,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2099287993477541960, guid: 6364513d42316b74fadbf43c673aa681,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3254,6 +3154,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a3bae10b0245c944fb45b3e47acafb0e, type: 2}
+    - target: {fileID: 6419873892131031300, guid: 6364513d42316b74fadbf43c673aa681,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6509251866780391355, guid: 6364513d42316b74fadbf43c673aa681,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3290,6 +3195,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3737061534835967741}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &8459071014857245766 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5095855893353988795, guid: 6364513d42316b74fadbf43c673aa681,
+    type: 3}
+  m_PrefabInstance: {fileID: 3737061534835967741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2197680551257375695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3288489177302664498, guid: 6364513d42316b74fadbf43c673aa681,
@@ -3299,12 +3210,6 @@ Transform:
 --- !u!4 &4611164607088477558 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 874420079548187531, guid: 6364513d42316b74fadbf43c673aa681,
-    type: 3}
-  m_PrefabInstance: {fileID: 3737061534835967741}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &8459071014857245766 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5095855893353988795, guid: 6364513d42316b74fadbf43c673aa681,
     type: 3}
   m_PrefabInstance: {fileID: 3737061534835967741}
   m_PrefabAsset: {fileID: 0}
