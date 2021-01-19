@@ -375,6 +375,9 @@ public class BossAI : MonoBehaviour
 
     IEnumerator SpawnCoroutine()
     {
+        /* Raph
+         * Son Spawn Boss
+         */
         isInSpawn = true;
         yield return new WaitForSeconds(spawnBuildup);
         Instantiate(spiderOriginal, transform.position, Quaternion.identity);
