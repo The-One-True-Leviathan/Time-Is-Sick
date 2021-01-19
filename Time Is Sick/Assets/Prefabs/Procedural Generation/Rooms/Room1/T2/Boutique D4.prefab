@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 4486051902966431447}
   - component: {fileID: 604734592685059037}
   m_Layer: 16
-  m_Name: Boutique D2
+  m_Name: Boutique D4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22986,7 +22986,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: b78776afcafbf6146966f5c5b20c92c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5cfa6f46d1b5e1f49b1f683646328165, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
