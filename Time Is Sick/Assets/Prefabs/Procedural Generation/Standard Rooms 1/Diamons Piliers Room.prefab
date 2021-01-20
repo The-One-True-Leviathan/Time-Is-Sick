@@ -50,6 +50,7 @@ MonoBehaviour:
   reverseParticles: {fileID: 8385096155496398381}
   reverseExplosion: {fileID: 0}
   audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &331512911850893188
 GameObject:
   m_ObjectHideFlags: 0
@@ -38599,6 +38600,9 @@ MonoBehaviour:
   fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &1279462376948664319
 GameObject:
   m_ObjectHideFlags: 0
@@ -38823,6 +38827,9 @@ MonoBehaviour:
   fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &1544202374754040496
 GameObject:
   m_ObjectHideFlags: 0
@@ -77537,6 +77544,7 @@ MonoBehaviour:
   reverseParticles: {fileID: 7748042405411895724}
   reverseExplosion: {fileID: 0}
   audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &2270787189198121736
 GameObject:
   m_ObjectHideFlags: 0
@@ -77962,6 +77970,9 @@ MonoBehaviour:
   fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &5178454475558053960
 GameObject:
   m_ObjectHideFlags: 0
@@ -78057,6 +78068,7 @@ MonoBehaviour:
   reverseParticles: {fileID: 4439022200511976987}
   reverseExplosion: {fileID: 0}
   audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &5677446135178387499
 GameObject:
   m_ObjectHideFlags: 0
@@ -116691,6 +116703,7 @@ MonoBehaviour:
   hasClosed: 0
   bossOverride: 0
   monsters: {fileID: 8920382390882969479}
+  musicSource: {fileID: 0}
 --- !u!1 &6170580641676920140
 GameObject:
   m_ObjectHideFlags: 0
@@ -117829,7 +117842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6474753246168576822
 Transform:
   m_ObjectHideFlags: 0
@@ -118172,6 +118185,7 @@ MonoBehaviour:
   reverseParticles: {fileID: 1510862393526533315}
   reverseExplosion: {fileID: 0}
   audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &7723991562166272547
 GameObject:
   m_ObjectHideFlags: 0
@@ -118351,6 +118365,9 @@ MonoBehaviour:
   fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &8920382390882969479
 GameObject:
   m_ObjectHideFlags: 0
@@ -118417,6 +118434,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   detector: {fileID: 0}
+  musicSource: {fileID: 0}
 --- !u!1 &8928629995880686675
 GameObject:
   m_ObjectHideFlags: 0

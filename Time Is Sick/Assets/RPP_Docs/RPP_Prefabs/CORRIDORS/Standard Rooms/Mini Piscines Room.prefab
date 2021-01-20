@@ -1358,7 +1358,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doors: []
   hasClosed: 0
+  bossOverride: 0
   monsters: {fileID: 8454338841612976336}
+  musicSource: {fileID: 0}
 --- !u!1 &6573573757226420107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,6 +2148,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   detector: {fileID: 0}
+  musicSource: {fileID: 0}
 --- !u!1 &9130829566027227483
 GameObject:
   m_ObjectHideFlags: 0

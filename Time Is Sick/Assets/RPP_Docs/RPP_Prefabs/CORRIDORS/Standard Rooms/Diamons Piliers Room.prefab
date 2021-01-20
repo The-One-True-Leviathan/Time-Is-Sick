@@ -48,6 +48,9 @@ MonoBehaviour:
   barrelObj: {fileID: 836350905039651021}
   explosionScript: {fileID: 4012673360582038480}
   reverseParticles: {fileID: 8385096155496398381}
+  reverseExplosion: {fileID: 0}
+  audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &331512911850893188
 GameObject:
   m_ObjectHideFlags: 0
@@ -38552,12 +38555,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 18688
   enemyDamageBarril: {fileID: 0}
+  canExplose: 1
   player: {fileID: 0}
   playerScript: {fileID: 0}
   explosionParticles: {fileID: 1965626446367819553}
   shoppingManager: {fileID: 0}
+  isActive: 0
   explosionDamage: 5
   explosionKnockBack: 10
+  "pr\xE9parationExplosion": {fileID: 0}
+  explosion: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &7864593524414224928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38584,8 +38592,17 @@ MonoBehaviour:
   isTrap: 0
   isEnvironment: 0
   isTable: 0
+  isBoss: 0
+  rewind: {fileID: 0}
+  dmgShader: {fileID: 0}
+  trueMaterial: {fileID: 0}
+  objectSprite: {fileID: 0}
+  fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &1279462376948664319
 GameObject:
   m_ObjectHideFlags: 0
@@ -38765,12 +38782,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 18688
   enemyDamageBarril: {fileID: 0}
+  canExplose: 1
   player: {fileID: 0}
   playerScript: {fileID: 0}
   explosionParticles: {fileID: 332146880680558752}
   shoppingManager: {fileID: 0}
+  isActive: 0
   explosionDamage: 5
   explosionKnockBack: 10
+  "pr\xE9parationExplosion": {fileID: 0}
+  explosion: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &8286602590765587873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38797,8 +38819,17 @@ MonoBehaviour:
   isTrap: 0
   isEnvironment: 0
   isTable: 0
+  isBoss: 0
+  rewind: {fileID: 0}
+  dmgShader: {fileID: 0}
+  trueMaterial: {fileID: 0}
+  objectSprite: {fileID: 0}
+  fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &1544202374754040496
 GameObject:
   m_ObjectHideFlags: 0
@@ -77511,6 +77542,9 @@ MonoBehaviour:
   barrelObj: {fileID: 1459196744520763212}
   explosionScript: {fileID: 2915141964331242577}
   reverseParticles: {fileID: 7748042405411895724}
+  reverseExplosion: {fileID: 0}
+  audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &2270787189198121736
 GameObject:
   m_ObjectHideFlags: 0
@@ -77891,12 +77925,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 18688
   enemyDamageBarril: {fileID: 0}
+  canExplose: 1
   player: {fileID: 0}
   playerScript: {fileID: 0}
   explosionParticles: {fileID: 5944757540017663767}
   shoppingManager: {fileID: 0}
+  isActive: 0
   explosionDamage: 5
   explosionKnockBack: 10
+  "pr\xE9parationExplosion": {fileID: 0}
+  explosion: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &2658229401463943702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77923,8 +77962,17 @@ MonoBehaviour:
   isTrap: 0
   isEnvironment: 0
   isTable: 0
+  isBoss: 0
+  rewind: {fileID: 0}
+  dmgShader: {fileID: 0}
+  trueMaterial: {fileID: 0}
+  objectSprite: {fileID: 0}
+  fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &5178454475558053960
 GameObject:
   m_ObjectHideFlags: 0
@@ -78018,6 +78066,9 @@ MonoBehaviour:
   barrelObj: {fileID: 4781726717108218107}
   explosionScript: {fileID: 9108717728279542758}
   reverseParticles: {fileID: 4439022200511976987}
+  reverseExplosion: {fileID: 0}
+  audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &5677446135178387499
 GameObject:
   m_ObjectHideFlags: 0
@@ -116650,7 +116701,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doors: []
   hasClosed: 0
+  bossOverride: 0
   monsters: {fileID: 8920382390882969479}
+  musicSource: {fileID: 0}
 --- !u!1 &6170580641676920140
 GameObject:
   m_ObjectHideFlags: 0
@@ -118129,6 +118182,9 @@ MonoBehaviour:
   barrelObj: {fileID: 7723991562166272547}
   explosionScript: {fileID: 6270577451619078462}
   reverseParticles: {fileID: 1510862393526533315}
+  reverseExplosion: {fileID: 0}
+  audioSource: {fileID: 0}
+  emptyBarrel: {fileID: 0}
 --- !u!1 &7723991562166272547
 GameObject:
   m_ObjectHideFlags: 0
@@ -118263,12 +118319,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 18688
   enemyDamageBarril: {fileID: 0}
+  canExplose: 1
   player: {fileID: 0}
   playerScript: {fileID: 0}
   explosionParticles: {fileID: 8929862938758481359}
   shoppingManager: {fileID: 0}
+  isActive: 0
   explosionDamage: 5
   explosionKnockBack: 10
+  "pr\xE9parationExplosion": {fileID: 0}
+  explosion: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &976955617139890382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118295,8 +118356,17 @@ MonoBehaviour:
   isTrap: 0
   isEnvironment: 0
   isTable: 0
+  isBoss: 0
+  rewind: {fileID: 0}
+  dmgShader: {fileID: 0}
+  trueMaterial: {fileID: 0}
+  objectSprite: {fileID: 0}
+  fxAnimator: {fileID: 0}
   hasLoot: 0
   possibleLoots: []
+  monsterDamage: {fileID: 0}
+  monsterDeath: {fileID: 0}
+  monsterSource: {fileID: 0}
 --- !u!1 &8920382390882969479
 GameObject:
   m_ObjectHideFlags: 0
@@ -118363,6 +118433,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   detector: {fileID: 0}
+  musicSource: {fileID: 0}
 --- !u!1 &8928629995880686675
 GameObject:
   m_ObjectHideFlags: 0

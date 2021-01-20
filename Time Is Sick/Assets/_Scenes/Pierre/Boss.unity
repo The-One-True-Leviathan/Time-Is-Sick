@@ -756,7 +756,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &190860224
 Light:
   m_ObjectHideFlags: 0
@@ -768,7 +768,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.2377788, g: 0.18009077, b: 0.6698113, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -10220,7 +10220,11 @@ MonoBehaviour:
   hasClosed: 0
   bossOverride: 1
   monsters: {fileID: 756276985361614049}
+<<<<<<< Updated upstream
   musicSource: {fileID: 1037079683}
+=======
+  musicSource: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!4 &1070514644116324615
 Transform:
   m_ObjectHideFlags: 0
@@ -10424,7 +10428,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   detector: {fileID: 6991551497475566807}
+<<<<<<< Updated upstream
   musicSource: {fileID: 1037079683}
+=======
+  musicSource: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1 &2539598107219742879
 GameObject:
   m_ObjectHideFlags: 0
