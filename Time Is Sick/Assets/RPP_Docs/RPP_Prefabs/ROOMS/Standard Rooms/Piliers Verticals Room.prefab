@@ -2120,6 +2120,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   detector: {fileID: 0}
+  battleTheme: {fileID: 8300000, guid: ca064e4bdcdebc94bbdf900baee4e4eb, type: 3}
+  suspenseTheme: {fileID: 8300000, guid: 091f6cc37ef8e4d4ebfa26a4f0b5f7a8, type: 3}
+  musicSource: {fileID: 0}
 --- !u!1 &5528042905630330339
 GameObject:
   m_ObjectHideFlags: 0
