@@ -107,9 +107,13 @@ public class EnemyDamage : MonoBehaviour
             {
                 StartCoroutine(DamageFeedback());
 
+                if (monsterSource != null)
+                {
+                    monsterSource.clip = monsterDamage;
+                    monsterSource.Play();
+
+                }
                 //RPP
-                monsterSource.clip = monsterDamage;
-                monsterSource.Play();
 
             }
             if (currentHP <= 0 && !isTrap && !isEnvironment)
