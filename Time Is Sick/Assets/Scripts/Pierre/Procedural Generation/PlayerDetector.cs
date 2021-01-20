@@ -9,6 +9,7 @@ public class PlayerDetector : MonoBehaviour
     public bool hasClosed;
     public bool bossOverride;
     public GameObject monsters;
+    public AudioSource musicSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,7 @@ public class PlayerDetector : MonoBehaviour
             if (other.tag == "Player")
             {
                 hasClosed = true;
+                musicSource.Play();
                 if (monsters != null)
                 {
                     monsters.SetActive(true);

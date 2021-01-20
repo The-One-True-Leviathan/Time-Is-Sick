@@ -10,12 +10,11 @@ public class MonsterDetector : MonoBehaviour
     bool allEnemiesDestroyed;
 
     //Musiks
-    public AudioClip battleTheme, suspenseTheme;
     public AudioSource musicSource;
 
     void Start()
     {
-        musicSource = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>();
+        //musicSource = GameObject.FindGameObjectWithTag("TEST").GetComponent<AudioSource>();
         detector = GetComponent<Collider>();
         int children = transform.parent.parent.parent.childCount;
         for (int i = 0; i < children; i++)
@@ -50,15 +49,19 @@ public class MonsterDetector : MonoBehaviour
             {
                 door.GetComponent<DoorManager>().Open();
             }
-            musicSource.clip = suspenseTheme;
-            musicSource.Play();
+            StartCoroutine(FadeOutMusic());
         }
         else
         {
-            musicSource.volume = 0;
-            musicSource.clip = battleTheme;
-            musicSource.Play();
-            musicSource.volume += 50 * Time.deltaTime;
+            //musicSource.volume = 0;
+            //musicSource.volume += 10 * Time.deltaTime;
         }
+    }
+
+    IEnumerator FadeOutMusic()
+    {
+        musicSource.volume -= 0.1f * Time.deltaTime;
+        yield return new WaitForSeconds(2f);
+        musicSource.Stop();
     }
 }
