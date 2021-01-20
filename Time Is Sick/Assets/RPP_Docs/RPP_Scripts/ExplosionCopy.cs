@@ -39,7 +39,7 @@ public class ExplosionCopy : MonoBehaviour
         shoppingManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<ShoppingManager>();
         if (shoppingManager.BarrelsWereBought || isActive)
         {
-            explosionDamage = 8;
+            explosionDamage = 5;
         }
         else
         {

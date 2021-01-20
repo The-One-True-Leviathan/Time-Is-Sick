@@ -745,7 +745,12 @@ PrefabInstance:
     - target: {fileID: 4563237294784395889, guid: bbe87b077b74cea4b9d28fce0a99d7d5,
         type: 3}
       propertyPath: m_Text
-      value: CONGRATS ! YOU SAVED YOUR MOM
+      value: CONGRATS ! YOU FREED THE DUNGEON !
+      objectReference: {fileID: 0}
+    - target: {fileID: 4563237294784395889, guid: bbe87b077b74cea4b9d28fce0a99d7d5,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4563237294784395890, guid: bbe87b077b74cea4b9d28fce0a99d7d5,
         type: 3}
