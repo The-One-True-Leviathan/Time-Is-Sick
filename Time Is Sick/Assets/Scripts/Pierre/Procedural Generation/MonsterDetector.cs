@@ -60,8 +60,9 @@ public class MonsterDetector : MonoBehaviour
 
     IEnumerator FadeOutMusic()
     {
-        musicSource.volume -= 0.1f * Time.deltaTime;
-        yield return new WaitForSeconds(2f);
+        musicSource.volume -= 0.3f * Time.deltaTime;
+        yield return new WaitForSeconds(3f);
         musicSource.Stop();
+        Debug.Log("Music Has Stoped");
     }
 }

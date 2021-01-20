@@ -10,10 +10,13 @@ public class DoorManager : MonoBehaviour
     public void Open()
     {
         door.SetActive(false);
+
+        Debug.LogWarning("Doors opened");
     }
 
     public void Close()
     {
         door.SetActive(true);
+        Debug.LogWarning("Doors closed");
     }
 }
