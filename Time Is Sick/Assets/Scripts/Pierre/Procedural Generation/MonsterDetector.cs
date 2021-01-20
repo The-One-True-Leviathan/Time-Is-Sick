@@ -8,9 +8,14 @@ public class MonsterDetector : MonoBehaviour
     public LayerMask ennemies;
     public Collider detector;
     bool allEnemiesDestroyed;
-    // Start is called before the first frame update
+
+    //Musiks
+    public AudioClip battleTheme, suspenseTheme;
+    public AudioSource musicSource;
+
     void Start()
     {
+        musicSource = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>();
         detector = GetComponent<Collider>();
         int children = transform.parent.parent.parent.childCount;
         for (int i = 0; i < children; i++)
@@ -45,6 +50,15 @@ public class MonsterDetector : MonoBehaviour
             {
                 door.GetComponent<DoorManager>().Open();
             }
+            musicSource.clip = suspenseTheme;
+            musicSource.Play();
+        }
+        else
+        {
+            musicSource.volume = 0;
+            musicSource.clip = battleTheme;
+            musicSource.Play();
+            musicSource.volume += 50 * Time.deltaTime;
         }
     }
 }
