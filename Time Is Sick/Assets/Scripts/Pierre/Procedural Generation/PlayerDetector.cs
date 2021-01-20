@@ -40,7 +40,10 @@ public class PlayerDetector : MonoBehaviour
             if (other.tag == "Player")
             {
                 hasClosed = true;
-                musicSource.Play();
+                if (musicSource != null)
+                {
+                    musicSource.Play();
+                }
                 if (monsters != null)
                 {
                     monsters.SetActive(true);

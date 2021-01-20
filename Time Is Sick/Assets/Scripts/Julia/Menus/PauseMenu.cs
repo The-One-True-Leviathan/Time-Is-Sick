@@ -45,6 +45,15 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = false;
     }
 
+    public void Boss()
+    {
+        pauseMenuUI.GetComponent<RectTransform>().localScale = Vector3.zero;
+        controlMenuUI.GetComponent<RectTransform>().localScale = Vector3.zero;
+        SceneManager.LoadScene("Boss");
+        Time.timeScale = 1f;
+        gameIsPaused = false;
+    }
+
     void Pause()
     {
         pauseMenuUI.GetComponent<RectTransform>().localScale = Vector3.one;
