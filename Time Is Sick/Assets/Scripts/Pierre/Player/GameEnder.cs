@@ -11,6 +11,7 @@ public class GameEnder : MonoBehaviour
     {
         if (interactible.interacted)
         {
+            GameObject.Find("Game Components").GetComponent<SaveandLoad>().SaveAll();
             SceneManager.LoadScene("VictoryScene");
         }
     }

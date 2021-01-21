@@ -81,6 +81,7 @@ public class HealthBar : MonoBehaviour
 
     public IEnumerator Ded()
     {
+        GameObject.Find("Game Components").GetComponent<SaveandLoad>().SaveAll();
         yield return new WaitForSeconds(deathtime);
         SceneManager.LoadScene("DeathScreen");
     }
